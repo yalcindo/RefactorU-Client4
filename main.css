@@ -1,0 +1,176 @@
+body{
+	margin:0;
+	background-color:rgb(239, 239, 239);
+}
+#signup{
+	position:fixed;
+	right:100px;
+	top:100px;
+	z-index:96;
+}
+#view{
+	position:fixed;
+	left:70px;
+	top:100px;
+	width:60px;
+	height:100px;
+	color:blue;
+	z-index:96;
+}
+
+#lightbox {
+	display:none;
+				font-family: Impact;
+				font-size: 20px;
+				color: #2B2B2B;
+				background: rgba(255, 255, 255, 0.5);
+				padding: 20px;
+				position:fixed;
+				top: 0;
+				left:0;
+				right:0;
+				bottom:0;
+				box-shadow: 8px 8px 5px rgba(20, 20, 20, 1);
+				
+				z-index:100;
+				text-align:center;
+			}
+
+#nav{
+	
+	margin:0;
+	
+	width:100%;
+	background-color:rgb(215, 22, 53);
+}
+
+#nav-ul{
+	display:inline-block;
+	list-style-type:none;
+	margin:0;
+	text-align: center;
+}
+
+#nav li{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color:black;
+	padding:10px;
+	float: left;
+
+}
+
+#nav li:hover{
+	background-color:rgb(215, 22, 53);
+}
+#nav a{
+	color:white;
+	text-decoration:none;
+}
+#article-top{
+	position:relative;
+	width: 72%;
+	height:200px;
+	background-color:rgba(226, 224, 220, 0.85);
+   	border-radius:10px;
+   	margin:8% 14% 5% 14%;
+   	text-align:center;
+}
+.text{
+	margin-left:20px;
+}
+#social-div{
+
+  position:absolute;
+  /*background-color:rgb(215, 22, 53);*/
+  /*width:130px;*/
+  /*height:100%;*/
+  border-radius:10px;
+
+}
+
+#social-ul{
+ 
+   margin:0;
+	list-style-type:none;
+	overflow:hidden;
+ 	
+}
+
+#social-ul img{
+	height:40px;
+	width:40px;
+    display:inline-block;
+    
+}
+
+#social-ul img:hover{
+	background-color:white;
+}
+
+
+
+#article-center{
+	position:relative;
+	background-color:white;
+    border-radius:10px;
+	width:72%;
+	height:100%;
+  	float:left;
+	display:inline-block;
+	margin:0 14% 0 14%;
+}
+
+#right{
+     
+	float:right;
+	width:60%;
+	height:100%;
+	line-height:200%;
+	text-indent:50px;
+	border-radius:10px;
+	text-align:center;
+}
+#right img{
+	float:right;
+	margin:5px;
+}
+header{
+
+	position: fixed;
+    left: 0px;
+	top: 0px;
+	width:100%;
+	z-index:10;
+}
+#left{
+	position:absolute;
+     
+	width:36%;
+	float:left;
+	height:400px;
+	border-radius:10px;
+	top:0px;
+    left:0px;
+	
+
+}
+.left-text{
+	text-align:center;
+}
+
+
+#footer{
+	
+	height:50px;
+	width:72%;
+	margin-left:14%;
+	margin-right:14%;
+     line-height:200%;
+	clear:both;
+	text-align:center;
+	bottom:0;
+	left:0;
+
+}
